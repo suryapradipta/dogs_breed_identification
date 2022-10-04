@@ -96,7 +96,7 @@ class _HomeState extends State<Home> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: BigText(text: "Dog Breed Recognizer"),
+          title: Text("Dog Breed Recognizer"),
         ),
         body: Container(
           decoration: const BoxDecoration(
